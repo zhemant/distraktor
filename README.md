@@ -8,4 +8,4 @@ This app will send notification on desktop about drinking water, move eyes from 
 
 This project uses two external libraries, notifypy and pyyaml. You can install these by using requirements.txt.
 
-To run the app, execute `python3 distraktor/distraktor.py`.
+To run the app, execute `python -m distraktor`.
