@@ -1,0 +1,9 @@
+# vscode
+.vscode/
+
+# venv
+venv/
+
+# pycache
+__pycache__/
+*.py[cod]
