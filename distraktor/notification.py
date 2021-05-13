@@ -1,12 +1,12 @@
 from notifypy import Notify, exceptions
 
 
-def notification_send():
-    notif = Notify()
-    notif.title = "water break"
-    notif.message = "drink water"
+def notification_send(title="Empty", message="No message"):
+    notify = Notify()
+    notify.title = title
+    notify.message = message
     try:
-        notif.icon = "ico"
-        notif.send(block=False)
+        notify.icon = "data/drinking_water.png"
+        notify.send(block=False)
     except (exceptions.InvalidIconPath):
         pass
