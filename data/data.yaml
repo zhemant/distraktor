@@ -1,4 +1,22 @@
-water_messages:
-  - drink water
-  - its water time 
+distraktor:
+  - name: water
+    interval: 2m
+    messages:
+    - drink water
+    - its water time 
+    - knock knock, drank water?
+    icons:
+      - data/drinking_water.png
+  - name: eyes
+    interval: 1m
+    messages:
+    - look to your left for 5s
+    - look to your right for 5s
+    - go wash your face
+    - take a peek from window
+    - close your eyes for 10s 
+    icons:
+      - data/eyes1.png 
+      - data/eyes2.jpg
+
   
