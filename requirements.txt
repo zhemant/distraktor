@@ -1,4 +1,9 @@
+APScheduler==3.7.0
+durations==0.3.3
 jeepney==0.6.0
 loguru==0.5.3
 notify-py==0.3.2
+pytz==2021.1
 PyYAML==5.4.1
+six==1.16.0
+tzlocal==2.1
