@@ -2,7 +2,7 @@ import yaml
 import random
 import threading
 import time
-import notification as notify
+import distraktor.notification as notify
 
 
 def reminder(messages):
