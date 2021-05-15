@@ -1,0 +1,19 @@
+# systemd unit file for disktraktor
+
+[Unit]
+
+Description=Creating notification distractions
+
+[Service]
+
+ExecStart=/usr/bin/python python -m distraktor
+
+Environment=PYTHONUNBUFFERED=1
+
+Restart=on-failure
+
+Type=notify
+
+[Install]
+
+WantedBy=default.target
