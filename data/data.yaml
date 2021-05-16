@@ -1,6 +1,6 @@
 distraktor:
   - name: water
-    interval: 2m
+    interval: 5s
     messages:
     - drink water
     - its water time 
@@ -8,7 +8,7 @@ distraktor:
     icons:
       - data/drinking_water.png
   - name: eyes
-    interval: 1m
+    interval: 1s
     messages:
     - look to your left for 5s
     - look to your right for 5s
